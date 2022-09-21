@@ -4,15 +4,10 @@ export const config = {
    */
 
   // 公众号APP_ID
-  // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
-  // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
-
+  APP_ID: "wxd859fcee83b00f95",
   // 公众号APP_SECRET
-  // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
-  // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
-
+  APP_SECRET: "3cadb459075b190f05327f51c6b9652d",
+  
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
   IS_SHOW_COLOR: true,
@@ -24,15 +19,15 @@ export const config = {
 
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts: true,
+    holidaytts: false,
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
@@ -62,13 +57,13 @@ export const config = {
       // 想要发送的人的名字
       name: "老婆0",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "Te23x1JhHUrhbuR8u6X5Zjxk30TwG0OwegIBmUqxQFk",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "Te23x1JhHUrhbuR8u6X5Zjxk30TwG0OwegIBmUqxQFk",
       // 所在省份
       province: "广东",
       // 所在城市
-      city: "肇庆",
+      city: 广州",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
